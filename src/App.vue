@@ -2,7 +2,7 @@
   <div id="app">
   <b-navbar toggleable="lg"  class="back">
     <b-navbar-brand href="#">
-      <img src="./assets/Logo.png" alt="logo" class="wImage"  >
+      <img src="./assets/logo.png" alt="logo" class="wImage"  >
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

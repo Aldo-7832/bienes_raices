@@ -1,23 +1,29 @@
-<template>
+<template lang="es">
   <div>
-      <h1 class="class">AvailableHousing</h1>
-      <Footerkhgkh/>
+    <h1 class="ms-5">Viviendas disponibles</h1>
+    <hr class="line mx-5" >
+    <TypeHousing />
+     <ListHousing />
+    <Footer/>
   </div>
 </template>
 
 <script>
-
-import Footerkhgkh from '@/components/footer.vue'
+import TypeHousing from "../components/housing/TypeHousing";
+import ListHousing from "../components/housing/ListHousing";
+import Footer from "../components/Footer";
 export default {
-  name:"AvailableHousing",
-  components:{
-    Footerkhgkh
-  }
-}
+  name: "AvailableHousing",
+  components: {
+    Footer, TypeHousing, ListHousing
+  },
+};
 </script>
 
-<style scoped>
-   .class{
-
-   }
+<style>
+.line {
+  border-width: 2px;
+  border-style: solid;
+  color: black;
+}
 </style>
