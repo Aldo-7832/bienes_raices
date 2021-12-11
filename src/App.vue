@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
   <b-navbar toggleable="lg"  class="back">
     <b-navbar-brand href="#">
       <img src="./assets/logo.png" alt="logo" class="wImage"  >
