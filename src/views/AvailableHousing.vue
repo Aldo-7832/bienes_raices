@@ -3,7 +3,7 @@
     <h1 class="ms-5">Viviendas disponibles</h1>
     <hr class="line mx-5" >
     <TypeHousing />
-     <ListHousing />
+    <ListHousing />
     <Footer/>
   </div>
 </template>
@@ -15,7 +15,9 @@ import Footer from "../components/Footer";
 export default {
   name: "AvailableHousing",
   components: {
-    Footer, TypeHousing, ListHousing
+    Footer,
+    TypeHousing,
+    ListHousing,
   },
 };
 </script>

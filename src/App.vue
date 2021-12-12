@@ -23,6 +23,7 @@
          <b-nav-item-dropdown text="PANTALLAS" right>
           <b-dropdown-item :to="{name: 'Main'}">Inicio</b-dropdown-item>
           <b-dropdown-item :to="{name: 'AvailableHousing'}">Viviendas Disponibles</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'RegisterHousing'}">Registrar Vivienda</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Chat'}">Chat</b-dropdown-item>
           <b-dropdown-item :to="{name: 'DashboardAdmin'}">Menu Admin</b-dropdown-item>
           <b-dropdown-item :to="{name: 'DetailsHousing'}">Detalles de Vivienda</b-dropdown-item>
@@ -40,7 +41,7 @@
           <b-dropdown-item :to="{name: 'TypeHousingTable'}">Tipo de Vivienda Tabla</b-dropdown-item>
           <b-dropdown-item :to="{name: 'UserProfile'}">Perfil de Usuario</b-dropdown-item>
           <b-dropdown-item :to="{name: 'VerifyData'}">Verificación de Datos</b-dropdown-item>
-          <b-dropdown-item :to="{name: 'Wizard'}">Verificación de Datos</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'Wizard'}">Wizard</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
 

@@ -4,7 +4,7 @@
     <h1>Obtén beneficios según tu nivel</h1>
     <hr class="line" >
     <div class="row text-center d-flex justify-content-center">
-      <div class="cardInit col-3">
+      <div class="cardInit col-md-3 col-sm-6">
         <div class=" border bg-secondary border-secondary card my-3 bg-opacity-50">
           <h3 class="p-3 pb-5">Free</h3>
           <p>Fecha de caducidad: 10 días</p>
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <div class="cardInit col-3">
+      <div class="cardInit col-md-3 col-sm-6">
         <div class=" border border-secondary card  my-3">
           <h3 class="p-3 pb-5">Standard</h3>
           <p>Fecha de caducidad: 3 meses</p>
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      <div class="cardInit col-3">
+      <div class="cardInit col-md-3 col-sm-6">
         <div class=" border bg-secondary border-secondary card  my-3 bg-opacity-50">
           <h3 class="p-3 pb-5">Premium</h3>
           <p>Fecha de caducidad: 1 año</p>
@@ -37,7 +37,7 @@
           </div>
           </div>
       </div>
-      <div class="cardInit col-3">
+      <div class="cardInit col-md-3 col-sm-6">
         <div class="border border-secondary card  my-3">
           <h3 class="p-3 pb-5">Gold</h3> <p>Fecha de caducidad: 2 años</p>
           <p>Propiedades: Ilimitado</p>
