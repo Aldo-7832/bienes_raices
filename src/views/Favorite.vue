@@ -1,5 +1,5 @@
 <template lang="es">
-  <div>
+  <div class="scroll-page">
       <Fav />
       <Footer />
     </div>
@@ -16,5 +16,11 @@ export default {
 </script>
 
 <style scoped>
-
+.scroll-page{
+  width: 100%; 
+  height: 600px; 
+  line-height: 3em; 
+  overflow:auto; 
+ 
+}
 </style>

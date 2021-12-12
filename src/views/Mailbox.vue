@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <div class="wrapper">
       <div class="sidebar">
         <img src="../assets/user.png">
@@ -156,4 +156,6 @@ export default {
   margin-left: 25%;
   margin-bottom: 10px;
 }
+
+
 </style>

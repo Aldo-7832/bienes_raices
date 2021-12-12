@@ -1,5 +1,5 @@
 <template lang="es">
-  <div>
+  <div class="scroll-page">
     <h1 class="ms-5">Registro</h1>
     <hr class="line mx-5" >
     <RegisterUser />
@@ -19,10 +19,17 @@ export default {
 };
 </script>
 
-<style >
+<style scoped>
 .line {
   border-width: 2px;
   border-style: solid;
   color:black;
+}
+.scroll-page{
+  width: 100%; 
+  height: 600px; 
+  line-height: 3em; 
+  overflow:auto; 
+ 
 }
 </style>

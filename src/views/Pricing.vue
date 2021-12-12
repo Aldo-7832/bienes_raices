@@ -1,5 +1,5 @@
 <template lang="es">
-<div>
+<div class="scroll-page">
   <div class="mx-5">
     <h1>Obtén beneficios según tu nivel</h1>
     <hr class="line" >
@@ -62,7 +62,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .line {
   border-width: 2px;
   border-style: solid;
@@ -74,5 +74,13 @@ export default {
 }
 .cardInit {
   padding: 5px;
+}
+
+.scroll-page{
+  width: 100%; 
+  height: 600px; 
+  line-height: 3em; 
+  overflow:auto; 
+ 
 }
 </style>

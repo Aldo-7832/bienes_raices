@@ -1,5 +1,5 @@
 <template lang="es">
-    <div>
+    <div class="scroll-page">
       <Notificar />
       <Footer />
     </div>
@@ -14,3 +14,13 @@ export default {
   data (){},
 };
 </script>
+
+<style scoped>
+/* .scroll-page{
+  width: 100%; 
+  height: 600px; 
+  line-height: 3em; 
+  overflow:auto; 
+ 
+} */
+</style>

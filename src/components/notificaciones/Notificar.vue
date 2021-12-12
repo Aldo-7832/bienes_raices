@@ -3,7 +3,48 @@
     <br />
     <h2>Notificaciones</h2>
     <br />
-    <table class="table table-sm">
+    <hr/>
+
+    <div class="row">
+     
+        <div class="col-lg-3">
+          <div class="d-flex justify-content-end">
+          <img class="mediana borderC" src="../../assets/tabla.jpg" alt="" style="width:8em; heigth:20em;"/>
+           </div>
+        </div>
+      
+        <div class="col-lg-3">
+              
+          <div class="d-flex justify-content-start">
+
+                    <h4 class="text-center">CORREOS<br/> Matenter actualizadoss</h4>
+        
+        </div>
+        </div>
+     
+        <div class="col-lg-3">
+          <div class="d-flex justify-content-start">
+          <img class="mediana borderC" src="../../assets/noti.png" alt="" style="width:6em; heigth:20em;"/>
+           </div>
+        </div>
+      
+        <div class="col-lg-3">
+              
+          <div class="d-flex justify-content-start">
+
+                    <h4 class="text-center">NOTICIAsS<br/> Se quien primero vea las historias disponibles</h4>
+        
+        </div>
+        </div>
+    </div>
+    <br/>
+    <hr/>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h5>Chicos! Aqui tienen una guia con información útil para <br/>conseguir puntos y ascender de categoria</h5>
+      </div>
+    </div>
+    <!-- <table class="table table-sm">
       <tbody>
         <tr>
           <td colspan="5"></td>
@@ -39,7 +80,7 @@
         <br />
         
       </tbody>
-    </table>
+    </table> -->
   </div>
 </template>
 
@@ -52,4 +93,6 @@ img.borderC {
 	border-width: 2px;
 	border-color: rgb(77, 76, 75);
 }
+
+
 </style>

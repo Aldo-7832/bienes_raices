@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-        <h5 class="card-title mt-3">Listado de Viviendas</h5>
+  <div class=" scroll-page" >
+    <div class="container">
+ <h5 class="card-title mt-3">Listado de Viviendas</h5>
         <hr/>
         <div class="col-lg-12 mb-3">
             <div class="col-lg-12">
@@ -57,12 +58,19 @@
                 </div>
             </div>
         </div>
+
+    </div>
+       <Footer/>
     </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer.vue'
 export default {
-  name: "TypeHousing"
+  name: "TypeHousing",
+  components:{
+    Footer
+  }
 }
 </script>
 
@@ -71,4 +79,12 @@ export default {
     border-top: 8px solid #000000;
     border-radius: 5px;
   }
+.scroll-page{
+  width: 100%; 
+  height: 600px; 
+  line-height: 3em; 
+  overflow:auto; 
+  margin:5px;
+ 
+}
 </style>

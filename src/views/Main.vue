@@ -1,5 +1,5 @@
 <template>
-  <div class="fondo">
+  <div class="fondo scroll-page" >
         <div class="container">
             <div class="text-center">
                 <h1 class="card-title text-dark">Bienes Raices</h1>
@@ -73,4 +73,11 @@ export default {
     border: 5px solid #000000;
     color: #000000;
   }
+ .scroll-page{
+  width: 100%; 
+  height: 600px; 
+  line-height: 3em; 
+  overflow:auto; 
+ 
+}
 </style>

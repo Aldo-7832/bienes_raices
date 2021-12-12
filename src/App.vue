@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <link rel="stylesheet" href="./assets/css/estilos.css">
-  <b-navbar toggleable="lg"  class="back">
+    
+  <b-navbar toggleable="lg"  class="back" >
     <b-navbar-brand href="#">
       <img src="./assets/logo.png" alt="logo" class="wImage"  >
     </b-navbar-brand>
@@ -63,12 +63,15 @@ export default {
 
 <style scoped>
     .back{
-        background-color: #25D87C;
+        background-color: #F1BA39;
     }
 
     .wImage{
-        width: 5rem;
+        width: 4rem;
     }
+    html {
+	overflow: hidden;
+}
 
 </style>
 
