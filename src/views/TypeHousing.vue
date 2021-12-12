@@ -67,7 +67,7 @@ export default {
 </script>
 
 <style scoped>
-  hr.rounded {
+  hr {
     border-top: 8px solid #000000;
     border-radius: 5px;
   }

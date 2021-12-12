@@ -1,12 +1,17 @@
-<template>
+<template lang="es">
   <div>
- <h1>Favorite</h1>
-      </div>
+      <Fav />
+      <Footer />
+    </div>
 </template>
 
 <script>
+import Footer from "../components/Footer";
+import Fav from "../components/favoritos/Fav"
 export default {
-  name: "Favorite"
+  name: "Favorite",
+  components: { Footer, Fav },
+  data (){},
 }
 </script>
 
