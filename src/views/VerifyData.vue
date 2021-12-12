@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h5 class="card-title mt-3">Verificar Datos del Cliente</h5>
-    <hr class="rounded" />
+    <hr/>
     <div class="mb-4 mt-4">
       <div class="card">
         <div class="card-header">
