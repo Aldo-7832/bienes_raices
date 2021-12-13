@@ -69,10 +69,10 @@ export default {
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 15px;
-  border: 1px solid #1daa61;
+  border: 1px solid #939503;
   border-radius: 14px;
   outline: none;
-  background-color: #7febb3;
+  background-color: #fff;
 }
 .chat2 {
   width: 400px;
@@ -82,10 +82,10 @@ export default {
   margin-right: 15px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 1px solid #1daa61;
+  border: 1px solid #d19509;
   border-radius: 14px;
   outline: none;
-  background-color: #25e280;
+  background-color: #fff;
 }
 .btn-extra {
   width: 40px;
