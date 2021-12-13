@@ -61,7 +61,7 @@ export default {
   position: fixed;
   width: 200px;
   height: 100%;
-  background: #25D87C;
+  background: #F1BA39;
   padding:30px 0;
 }
 .wrapper .sidebar h2
@@ -74,8 +74,8 @@ export default {
 .wrapper .sidebar ul li
 {
   padding: 15px;
-  border-bottom: 1px solid #28D825;
-  border-top: 1px solid #28D825;
+  border-bottom: 1px solid #c79114;
+  border-top: 1px solid #c79114;
 }
 .wrapper .sidebar ul li a
 {
@@ -88,11 +88,11 @@ export default {
 }
 .wrapper .sidebar ul li:hover
 {
-  background: #00e783;
+  background: #f7ca62;
 }
 .wrapper .sidebar ul li:hover a
 {
-  color: #025c2c;
+  color: #976f11;
 }
 .wrapper .main_content
 {
@@ -104,7 +104,7 @@ export default {
   padding: 20px;
   background: #fff;
   color: #717171;
-  border-bottom: 1px solid #025c2c;
+  border-bottom: 1px solid #c79114;
 }
 .wrapper .main_content .header input
 {
@@ -123,8 +123,8 @@ export default {
 {
   display: flex;
   background: #e9e9e9;
-  border-bottom: 1px solid #28D825;
-  border-top: 1px solid #28D825;
+  border-bottom: 1px solid #c79114;
+  border-top: 1px solid #c79114;
 }
 .wrapper .main_content .info .mail .persona
 {

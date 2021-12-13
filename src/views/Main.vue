@@ -72,6 +72,7 @@ export default {
 <style scoped>
   .fondo{
     background-image: url('../assets/portada.jpg');
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
   }
