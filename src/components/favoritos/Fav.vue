@@ -1,7 +1,7 @@
 <template>
   <div class="mx-5">
     <br>
-    <h5 class="card-title mt-3">Favoritos</h5>
+    <h2 class="card-title mt-3">Favoritos</h2>
     <hr/>
     <br />
     <table class="table table-sm">
@@ -15,7 +15,7 @@
           </td>
           <td><br><br>Color: Space gray <br> Stock disponible</td>
           <td><br><br><a type="button" v-b-modal.modal-center><img class="pequeña" src="../../assets/favs.png" alt="" /></a></td>
-          <td><br><br><button type="button" v-b-modal.modal-agenda class="btn btn-primary"><i class="fa fa-comments"></i>Agendar cita</button></td>
+          <td><br><br><button type="button" v-b-modal.modal-agenda class="btn btn-primary"><b-icon icon="menu-up" variant="light"></b-icon> Agendar cita</button></td>
         </tr>
         
         <tr>
@@ -25,7 +25,7 @@
           </td>
           <td><br> Color: Space gray <br> Stock disponible</td>
           <td><br><a type="button" v-b-modal.modal-center><img class="pequeña" src="../../assets/favs.png" alt="" /></a></td>
-          <td><br><button type="button" v-b-modal.modal-agenda class="btn btn-primary"><i class="fa fa-comments"></i>Agendar cita</button></td>
+          <td><br><button type="button" v-b-modal.modal-agenda class="btn btn-primary"><b-icon icon="menu-up" variant="light"></b-icon> Agendar cita</button></td>
         </tr>
         
         <tr>
@@ -35,7 +35,7 @@
             IVA incluido</td>
           <td><br>Color: Space gray <br> Stock disponible</td>
           <td><br><a type="button" v-b-modal.modal-center><img class="pequeña" src="../../assets/favs.png" alt="" /></a></td>
-          <td><br><button type="button" v-b-modal.modal-agenda class="btn btn-primary"><i class="fa fa-comments"></i>Agendar cita</button></td>
+          <td><br><button type="button" v-b-modal.modal-agenda class="btn btn-primary"><b-icon icon="menu-up" variant="light"></b-icon> Agendar cita</button></td>
         </tr>
       </tbody>
     </table>

@@ -44,6 +44,7 @@
 
         <b-navbar-nav class="ml-auto fw-bold">
           <b-nav-item-dropdown text="Favoritos" right>
+            <b-dropdown-item :to="{ name: 'Favorite' }">Favoritos</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'DetailsHousing' }">Detalle del Producto</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'VerifyData' }"
               >Verificar Datos del Cliente</b-dropdown-item
@@ -55,6 +56,7 @@
 
         <b-navbar-nav class="ml-auto fw-bold">
           <b-nav-item-dropdown text="Notificaciones" right>
+            <b-dropdown-item :to="{ name: 'Notification' }">Notificaciones</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'Mailbox' }">Bandeja de Correo</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'Chat' }"
               >Chat</b-dropdown-item
