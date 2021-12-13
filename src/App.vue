@@ -37,7 +37,6 @@
           <b-nav-item-dropdown text="Comprar Viviendas" right>
             <b-dropdown-item :to="{ name: 'TypeHousing' }">Tipos de viviendas</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'AvailableHousing' }">Viviendas Disponibles</b-dropdown-item>
-            <b-dropdown-item :to="{ name: 'DetailsHousing' }">Detalle Vivienda</b-dropdown-item>
             
           </b-nav-item-dropdown>
         </b-navbar-nav>
@@ -45,11 +44,9 @@
         <b-navbar-nav class="ml-auto fw-bold">
           <b-nav-item-dropdown text="Favoritos" right>
             <b-dropdown-item :to="{ name: 'Favorite' }">Favoritos</b-dropdown-item>
-            <b-dropdown-item :to="{ name: 'DetailsHousing' }">Detalle del Producto</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'VerifyData' }"
               >Verificar Datos del Cliente</b-dropdown-item
             >
-            <b-dropdown-item :to="{ name: 'Schedule' }">Agendar</b-dropdown-item>
             
           </b-nav-item-dropdown>
         </b-navbar-nav>
