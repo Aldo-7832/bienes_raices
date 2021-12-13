@@ -1,6 +1,6 @@
 <template>
   <div>
- <h1>Form</h1>
+<h2 class="ms-5 mt-2">Form</h2>
       </div>
 </template>
 

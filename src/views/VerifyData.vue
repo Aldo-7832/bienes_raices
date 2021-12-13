@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h5 class="card-title mt-3">Verificar Datos del Cliente</h5>
+    <h2 class="ms-5 mt-2">Verificar Datos del Cliente</h2>
     <hr/>
     <div class="mb-4 mt-4">
       <div class="card">

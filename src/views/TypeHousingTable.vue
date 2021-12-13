@@ -1,7 +1,7 @@
 <template>
   <div class=" scroll-page">
     <div class="container">
- <h5 class="card-title mt-3">Listado de Viviendas</h5>
+ <h2 class="ms-5 mt-2">Listado de Viviendas</h2>
         <hr/>
         <div class="mb-4 mt-4">
           <div class="card">

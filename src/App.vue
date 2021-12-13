@@ -3,7 +3,7 @@
     <b-navbar toggleable="lg" class="back">
       <b-navbar-brand href="/dashMain">
         <span class="d-sm-none d-md-none d-lg-inline d-xl-inline">
-          <img src="./assets/logo.png" alt="logo" class="wImage" />
+          <img src="./assets/logo.png" style="margin-left :15px" alt="logo" class="wImage" />
         </span>
       </b-navbar-brand>
 
@@ -65,10 +65,11 @@
 
         <b-navbar-nav class="ml-auto fw-bold">
           <b-nav-item-dropdown text="Iniciar Sesión" right>
+            <b-dropdown-item :to="{ name: 'Pricing' }">Pricing</b-dropdown-item>
             <b-dropdown-item :to="{ name: 'Register' }">Registro</b-dropdown-item>
-            <b-dropdown-item :to="{ name: 'UserProfile' }"
-              >Perfil de Usuario</b-dropdown-item
-            >
+            <b-dropdown-item :to="{ name: 'Login' }">Iniciar Sesión</b-dropdown-item>
+            <b-dropdown-item :to="{ name: 'UserProfile' }">Perfil de Usuario</b-dropdown-item>
+            <b-dropdown-item :to="{ name: 'Wizard' }">Wizard</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>

@@ -1,6 +1,6 @@
 <template>
   <div>
- <h1>Wizard</h1>
+ <h2 class="ms-5 mt-2">Wizard</h2>
       </div>
 </template>
 

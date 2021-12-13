@@ -1,6 +1,6 @@
 <template>
   <div>
- <h1>DashboardAdmin</h1>
+<h2 class="ms-5 mt-2">DashboardAdmin</h2>
       </div>
 </template>
 

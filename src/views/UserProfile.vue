@@ -2,8 +2,8 @@
   <div >
 
     <div class="scroll-page">
-    <h1>Perfil de Usuario</h1>
-    <hr />
+    <h2 class="ms-5 mt-2">Perfil de Usuario</h2>
+    <hr class="line mx-5" >
     <div class="row mt-5 ms-5">
       <div class="col-lg-12 text-center mb-5">
         <b-icon class="p-1" icon="person-square" font-scale="7.5"></b-icon>

@@ -1,6 +1,6 @@
 <template lang="es">
   <div class="scroll-page">
-    <h1 class="ms-5">Registrar Vivienda</h1>
+    <h2 class="ms-5 mt-2">Registrar Vivienda</h2>
     <hr class="line mx-5" >
     <RegisterForm />
     <Footer />

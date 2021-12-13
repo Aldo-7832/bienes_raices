@@ -1,8 +1,8 @@
 <template lang="es">
 <div class="scroll-page">
   <div class="mx-5">
-    <h1>Obtén beneficios según tu nivel</h1>
-    <hr class="line" >
+    <h2 class="mt-2">Obtén beneficios según tu nivel</h2>
+    <hr class="line mx-5" >
     <div class="row text-center d-flex justify-content-center">
       <div class="cardInit col-md-3 col-sm-6">
         <div class=" border bg-secondary border-secondary card my-3 bg-opacity-50">

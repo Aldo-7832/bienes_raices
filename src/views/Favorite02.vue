@@ -1,6 +1,6 @@
 <template>
   <div>
- <h1>Favorite 02</h1>
+<h2 class="ms-5 mt-2">Favorite 02</h2>
       </div>
 </template>
 

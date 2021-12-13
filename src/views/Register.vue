@@ -1,6 +1,6 @@
 <template lang="es">
   <div class="scroll-page">
-    <h1 class="ms-5">Registro</h1>
+    <h2 class="ms-5 mt-2">Registro</h2>
     <hr class="line mx-5" >
     <RegisterUser />
     <Footer />

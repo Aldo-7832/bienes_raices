@@ -6,7 +6,7 @@
             </div>
             <div class="col bg-white p-5 rounded-end border border-1 border-dark">
                 
-                <h4 >Iniciar Sesión</h4>
+                <h2 class="ms-5 mt-2">Iniciar Sesión</h2>
                     <div class="mb-4 mt-5">
                         <label >Correo Electrónico</label>
                         <input required  type="text" class="form-control" name="usuario" placeholder="Correo Electrónico">

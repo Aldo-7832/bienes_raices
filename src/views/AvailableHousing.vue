@@ -1,6 +1,6 @@
 <template >
   <div class="scroll-page" >
-    <h1 class="ms-5">Viviendas disponibles</h1>
+    <h2 class="ms-5 mt-2">Viviendas disponibles</h2>
     <hr class="line mx-5" >
     <TypeHousing />
     <ListHousing />
