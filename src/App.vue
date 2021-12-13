@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    
+ 
   <b-navbar toggleable="lg"  class="back" >
     <b-navbar-brand href="#">
-      <img src="./assets/logo.png" alt="logo" class="wImage"  >
+         <span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> <img src="./assets/logo.png" alt="logo" class="wImage"  > </span>
+
+     
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav >
+      <b-navbar-nav class="fw-bold">
         <b-nav-item href="#">Inicio</b-nav-item>
         <b-nav-item href="#">Viviendas</b-nav-item>
         <b-nav-item href="#">Comprar Viviendas</b-nav-item>
@@ -19,7 +21,7 @@
       </b-navbar-nav>
       
 
-      <b-navbar-nav class="ml-auto"> 
+      <b-navbar-nav class="ml-auto fw-bold"> 
          <b-nav-item-dropdown text="PANTALLAS" right>
           <b-dropdown-item :to="{name: 'Main'}">Inicio</b-dropdown-item>
           <b-dropdown-item :to="{name: 'AvailableHousing'}">Viviendas Disponibles</b-dropdown-item>

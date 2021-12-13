@@ -12,7 +12,7 @@
               <div class="row">
                 <div class="col-lg-12 mx-auto">
                   <table
-                    class="table table-hover table table-striped table-collapse mt-3 mytable table-responsive" id="housing">
+                    class="table table-hover  table table-striped table-collapse mt-3 mytable table-responsive" id="housing">
                     <thead class="table-dark">
                       <tr>
                         <th>#</th>
@@ -30,8 +30,8 @@
                         <td>Casa</td>
                         <td class="text-end">
                           <div class="col-lg-12 mb-3 text-end">
-                            <button type="button" class="btn btn-dark">Detalles</button>
-                            <button type="button" class="btn btn-primary">Editar</button>
+                            <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline">Detalles</span></button>
+                            <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                           </div>
                         </td>
                       </tr>
@@ -42,8 +42,8 @@
                         <td>Departamento</td>
                         <td class="text-end">
                           <div class="col-lg-12 mb-3 text-end">
-                            <button type="button" class="btn btn-dark">Detalles</button>
-                            <button type="button" class="btn btn-primary">Editar</button>
+                            <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span></button>
+                            <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                           </div>
                         </td>
                       </tr>
@@ -54,8 +54,8 @@
                         <td>Departamento</td>
                         <td class="text-end">
                           <div class="col-lg-12 mb-3 text-end">
-                            <button type="button" class="btn btn-dark">Detalles</button>
-                            <button type="button" class="btn btn-primary">Editar</button>
+                            <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span></button>
+                            <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                           </div>
                         </td>
                       </tr>
@@ -66,8 +66,8 @@
                         <td>Casa</td>
                         <td class="text-end">
                           <div class="col-lg-12 mb-3 text-end">
-                            <button type="button" class="btn btn-dark">Detalles</button>
-                            <button type="button" class="btn btn-primary">Editar</button>
+                            <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span></button>
+                            <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                           </div>
                         </td>
                       </tr>
@@ -108,8 +108,8 @@
                           <td>Casa</td>
                           <td class="text-end">
                             <div class="col-lg-12 mb-3 text-end">
-                              <button type="button" class="btn btn-dark">Detalles</button>
-                              <button type="button" class="btn btn-primary">Editar</button>
+                              <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span></button>
+                              <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                             </div>
                           </td>
                         </tr>
@@ -120,8 +120,8 @@
                           <td>Departamento</td>
                           <td class="text-end">
                             <div class="col-lg-12 mb-3 text-end">
-                              <button type="button" class="btn btn-dark">Detalles</button>
-                              <button type="button" class="btn btn-primary">Editar</button>
+                              <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span></button>
+                              <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                             </div>
                           </td>
                         </tr>
@@ -132,8 +132,8 @@
                           <td>Departamento</td>
                           <td class="text-end">
                             <div class="col-lg-12 mb-3 text-end">
-                              <button type="button" class="btn btn-dark">Detalles</button>
-                              <button type="button" class="btn btn-primary">Editar</button>
+                              <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span  class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span></button>
+                              <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
                             </div>
                           </td>
                         </tr>
@@ -143,10 +143,10 @@
                           <td>Ulises Islas</td>
                           <td>Casa</td>
                           <td class="text-end">
-                            <div class="col-lg-12 mb-3 text-end">
-                              <button type="button" class="btn btn-dark">Detalles</button>
-                              <button type="button" class="btn btn-primary">Editar</button>
-                            </div>
+                           
+                              <button type="button" class="btn btn-dark me-2"><b-icon icon="trash-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Detalles</span> </button>
+                              <button type="button" class="btn btn-primary"><b-icon icon="pencil-fill"></b-icon><span class="d-sm-none d-md-none d-lg-inline d-xl-inline"> Editar</span></button>
+                            
                           </td>
                         </tr>
                       </tbody>
