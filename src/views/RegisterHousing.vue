@@ -11,8 +11,13 @@
 import Footer from "../components/Footer";
 import RegisterForm from "../components/housing/RegisterForm";
 export default {
+  methods: {
+ 
+
+  },
   name: "RegisterHousing",
   components: {RegisterForm, Footer},
+  
 };
 </script>
 
@@ -24,7 +29,7 @@ export default {
 }
 .scroll-page{
   width: 100%; 
-  height: 600px; 
+  height: 650px; 
   line-height: 3em; 
   overflow:auto; 
  

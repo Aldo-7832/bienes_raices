@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
 
       {
-        path:'/',
+        path:'/main',
         name:'Main',
         component:()=>import('../views/Main.vue')
       },
@@ -50,11 +51,11 @@ const routes = [
         name:'Form',
         component:()=>import('../views/Form.vue')
       },
-      {
-        path:'/login',
-        name:'Login',
-        component:()=>import('../views/Login.vue')
-      },
+      // {
+      //   path:'/login',
+      //   name:'Login',
+      //   component:()=>import('../views/Login.vue')
+      // },
       {
         path:'/mailbox',
         name:'Mailbox',
@@ -110,8 +111,24 @@ const routes = [
         name:'Wizard',
         component:()=>import('../views/Wizard.vue')
       },
-  
+
+      {
+        path:'/login',
+        redirect:'login',
+        component:Login,
+        children:[
+          {
+            path:'/login',
+            name:'Login',
+            component:()=>import('../views/Login.vue')
+          }
+        ]
+      }
+     
 ]
+
+
+
 
 const router = new VueRouter({
   mode: 'history',
@@ -125,3 +142,4 @@ const router = new VueRouter({
 
 
 export default router
+

@@ -1,31 +1,36 @@
 <template>
+  <div>
+    <div class="scroll-page">
+      <div class="row text-center mt-5 pt-5">
+        <div class="col-lg-4">
+         
+        </div>
+        <div class="col-lg-4">
+           <b-card title="ERROR 404" class="mb-2 border border-5 border-dark">
+            <b-card-text>
+              <b-icon icon="building" font-scale="7.5"></b-icon>
+              <h4>Página no encontrada</h4>
+            </b-card-text>
 
-<div>
-<div class="scroll-page">
-
-    <div class="row text-center mt-5">
-      <div class="col-lg-12 ">
-        <b-icon icon="building" font-scale="7.5"></b-icon>
+          
+          </b-card>
+        </div>
+        <div class="col-lg-4"></div>
       </div>
     </div>
-
-  
-</div>
-  <Footer/> 
- 
+    <Footer />
   </div>
 </template>
 
 <script>
-import Footer from '@/components/Footer.vue'
+import Footer from "@/components/Footer.vue";
 export default {
-  props: {
-  },
+  props: {},
   name: "Error",
-  components:{
-    Footer
-  }
-}
+  components: {
+    Footer,
+  },
+};
 </script>
 
 <style scoped>
@@ -36,8 +41,7 @@ export default {
   overflow: auto;
 }
 
-    html {
-	overflow: hidden;
+html {
+  overflow: hidden;
 }
-
 </style>

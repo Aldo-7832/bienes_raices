@@ -33,7 +33,7 @@
           <b-dropdown-item :to="{name: 'Favorite'}">Favoritos</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Favorite2'}">Favoritos 2</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Form'}">Formulario</b-dropdown-item>
-          <b-dropdown-item :to="{name: 'Login'}">Iniciar Sesión</b-dropdown-item>
+          <b-dropdown-item :href="'/login'">Iniciar Sesión</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Mailbox'}">Buzón de correo</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Notification'}">Notification</b-dropdown-item>
           <b-dropdown-item :to="{name: 'Pricing'}">Pricing</b-dropdown-item>
